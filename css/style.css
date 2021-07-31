@@ -1,0 +1,182 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: relative;
+}
+nav{
+    height: 53px;
+    background: #212121
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu .menu_link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+   }
+ul li:hover{
+       text-decoration: underline;
+   }
+.menu .menu_item{
+    border-right: 2px dotted red;
+    padding-right: 30px;
+}
+.subhead{
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    background: rgba(0, 0, 0, 0.6);
+    }
+.subhead .sudhead_logo{
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subhead .subhead_offic{
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+    opacity: 0.5;
+}
+.subhead .subhead_call{
+    text-align: right;
+    margin-top: 19px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+}
+.subhead .subhead_phone{
+    display: block;
+    text-align: right;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 24px;
+}
+.subhead .subhead_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+}
+.first{
+    min-height: 800px;
+    background: url('../img/bg/uber_bg.png') center center/cover no-repeat; 
+    padding: 150px 0 180px 0;
+}
+.first .first_head{
+    font-weight: 900;
+    font-size: 60px;
+    color: #fff;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+.first .first_subhead{
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 36px;
+    color: #fff;
+    margin: 0;
+    margin-top: 24px;
+    text-align: center;
+}
+.first .first_descr{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 16px;
+}
+.first .first_btn{
+    display: block;
+    margin: 116px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+.second {
+    min-width: 849px;
+    padding: 0 0 62px 0;
+    }
+.row{
+        display: flex;
+    justify-content: center;
+    align-items:center;
+    }
+.label{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 113px;
+    height: 24px;   
+    font-weight: 300;
+    font-size: 11px;
+    color: #fff;
+    background-color: #000;
+    line-height: 24px
+}
+.title{
+    display: block;
+    margin: 33px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 0
+   }
+.second .second_block{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 32px;
+}
+.second .second_block .second_round{
+    margin-right: 25px;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items :center;
+}
+.second .second_block .second_descr{
+    width: 343px;
+    }
+.second  .second_block .second_descr .second_subtitle{
+    color: #1EACC7;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+}
+.second  .second_block .second_descr .second_text{
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
